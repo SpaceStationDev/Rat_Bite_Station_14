@@ -444,9 +444,9 @@
     allowMovement: true
     name: ghost-role-information-snail-name
     description: ghost-role-information-snail-description
-    rules: ghost-role-information-freeagent-rules
+    rules: ghost-role-information-nonantagonist-rules
     mindRoles:
-    - MindRoleGhostRoleFreeAgentHarmless
+    - MindRoleGhostRoleNeutral
   - type: GhostTakeoverAvailable
   - type: Emoting
   - type: Sprite
@@ -586,7 +586,7 @@
   components:
   - type: GhostRole
     mindRoles:
-    - MindRoleGhostRoleFreeAgent
+    - MindRoleGhostRoleNeutral
   - type: MobStateActions
     actions:
       Alive:
@@ -606,7 +606,7 @@
   - type: GhostRole
     name: ghost-role-information-snailspeed-name
     description: ghost-role-information-snailspeed-description
-    rules: ghost-role-information-freeagent-rules
+    rules: ghost-role-information-nonantagonist-rules
   - type: Sprite
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
@@ -635,7 +635,7 @@
   - type: GhostRole
     name: ghost-role-information-snoth-name
     description: ghost-role-information-snoth-description
-    rules: ghost-role-information-freeagent-rules
+    rules: ghost-role-information-nonantagonist-rules
   - type: Sprite
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]

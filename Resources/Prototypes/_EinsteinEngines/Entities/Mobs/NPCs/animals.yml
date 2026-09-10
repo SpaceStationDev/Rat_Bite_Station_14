@@ -30,9 +30,9 @@
     allowMovement: true
     name: ghost-role-information-squackroach-name
     description: ghost-role-information-squackroach-description
-    rules: ghost-role-information-freeagent-rules
+    rules: ghost-role-information-nonantagonist-rules
     mindRoles:
-    - MindRoleGhostRoleFreeAgent
+    - MindRoleGhostRoleNeutral
   - type: Fixtures
     fixtures:
       fix1:

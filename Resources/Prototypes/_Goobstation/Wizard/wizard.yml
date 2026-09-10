@@ -54,7 +54,7 @@
     description: roles-wizard-objective
     rules: ghost-role-information-antagonist-rules
     mindRoles:
-    - MindRoleGhostRoleFreeAgent
+    - MindRoleGhostRoleSoloAntagonist
   - type: Sprite
     sprite: Markers/jobs.rsi
     layers:

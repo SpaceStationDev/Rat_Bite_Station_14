@@ -15,9 +15,9 @@
       makeSentient: true
       name: ghost-role-information-space-goldfish-name
       description: ghost-role-information-space-goldfish-description
-      rules: ghost-role-information-freeagent-rules
+      rules: ghost-role-information-nonantagonist-rules
       mindRoles:
-      - MindRoleGhostRoleFreeAgent
+      - MindRoleGhostRoleNeutral
     - type: Tag #Goob edit start
       tags:
       - VimPilot

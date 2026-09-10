@@ -31,9 +31,9 @@
     allowMovement: true
     name: ghost-role-information-floor-goblin-name
     description: ghost-role-information-floor-goblin-description
-    rules: ghost-role-information-freeagent-rules
+    rules: ghost-role-information-antagonist-rules
     mindRoles:
-    - MindRoleGhostRoleFreeAgent
+    - MindRoleGhostRoleTeamAntagonist
     raffle:
       settings: default
   - type: GhostTakeoverAvailable

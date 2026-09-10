@@ -362,11 +362,11 @@
       makeSentient: true
       name: ghost-role-information-artifact-name
       description: ghost-role-information-artifact-description
-      rules: ghost-role-information-freeagent-rules
+      rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: default
       mindRoles:
-      - MindRoleGhostRoleFreeAgent
+      - MindRoleGhostRoleNeutral
     - type: GhostTakeoverAvailable
 
 - type: entity

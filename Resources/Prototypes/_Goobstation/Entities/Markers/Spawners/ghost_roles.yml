@@ -74,9 +74,9 @@
   - type: GhostRole
     name: ghost-role-information-Singuloth-Knight-name
     description: ghost-role-information-Singuloth-Knight-description
-    rules: ghost-role-information-freeagent-rules
+    rules: ghost-role-information-antagonist-rules
     mindRoles:
-    - MindRoleGhostRoleFreeAgentEngineeringGoob
+    - MindRoleGhostRoleTeamAntagonist
     raffle:
       settings: default
   - type: Sprite
@@ -161,10 +161,9 @@
   - type: GhostRole
     name: ghost-role-information-dark-priest-name
     description: ghost-role-information-dark-priest-description
-    rules: ghost-role-information-freeagent-rules
+    rules: ghost-role-information-antagonist-rules
     mindRoles:
-    - MindRoleGhostRoleFreeAgent
-    - MindRoleGhostRoleFreeAgentSecurityGoob
+    - MindRoleGhostRoleSoloAntagonist
     raffle:
       settings: default
   - type: Sprite

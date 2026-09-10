@@ -228,9 +228,9 @@
     allowMovement: true
     name: ghost-role-information-lootbug-name
     description: ghost-role-information-lootbug-description
-    rules: ghost-role-information-freeagent-rules
+    rules: ghost-role-information-antagonist-rules
     mindRoles:
-    - MindRoleGhostRoleFreeAgent
+    - MindRoleGhostRoleSoloAntagonist
   - type: GhostTakeoverAvailable
   - type: Speech
     speechVerb: SmallMob
@@ -823,9 +823,9 @@
     allowMovement: true
     name: ghost-role-information-clown-goblin-name
     description: ghost-role-information-clown-goblin-description
-    rules: ghost-role-information-freeagent-rules
+    rules: ghost-role-information-nonantagonist-rules
     mindRoles:
-    - MindRoleGhostRoleFreeAgent
+    - MindRoleGhostRoleNeutral
     raffle:
       settings: default
   - type: Speech

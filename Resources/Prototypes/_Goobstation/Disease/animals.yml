@@ -9,7 +9,7 @@
     allowMovement: true
     name: ghost-role-information-plague-mouse-name
     description: ghost-role-information-plague-mouse-description
-    rules: ghost-role-information-freeagent-rules
+    rules: ghost-role-information-antagonist-rules
   - type: GhostTakeoverAvailable
   - type: GrantDisease
     baseDisease: DiseaseBaseMouse
